@@ -13,19 +13,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 22vh;
+  height: 25vh;
   overflow: hidden;
 }
 .profile_icon img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   filter: invert();
 }
 
 /* sdfgsdfgdsfgdfgdfgdfgfdfgdfgdfgdf */
 .mh {
   background: url(img/36df6fc8-5d37-40ec-bf59-e9a013454cc4.jpg);
-  height: 50vh;
+  height: 63vh;
   background-repeat: no-repeat;
   background-size: 162%;
   background-position: -278px -292px;
@@ -33,14 +33,17 @@
   align-items: flex-end;
   justify-content: end;
   color: rgb(197, 196, 196);
+  position: relative;
 }
 .shadow_box {
   background-color: rgba(51, 49, 49, 0.628);
-  height: 80%;
+  /* height: 90%; */
   width: 200px;
   text-align: center;
   padding: 20px;
   margin: 22px 17px 22px 22px;
+  position: absolute;
+  top: 60px;
 }
 .shadow_box p {
   font-size: 20px;
