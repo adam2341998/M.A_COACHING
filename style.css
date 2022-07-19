@@ -3,7 +3,7 @@
   padding: 0;
 }
 .background {
-  background-color: rgb(68, 7, 7);
+  background: linear-gradient(to top, #ffff66 31%, #cc3300 89%);
 
   height: 300vh;
 }
@@ -25,7 +25,7 @@
 /* mh profile */
 .mh {
   background: url(img/36df6fc8-5d37-40ec-bf59-e9a013454cc4.jpg);
-  border-radius: 126px 261px 0px 0px;
+  border-radius: 126px 261px 0px 358px;
   height: 65vh;
   background-repeat: no-repeat;
   background-size: 162%;
@@ -59,7 +59,7 @@
 .ay {
   background: url(img/161bb3d4-3896-4968-91d2-103b3f18f605.jpg);
   margin-top: 250px;
-  border-radius: 261px 126px 0px 0px;
+  border-radius: 261px 126px 258px 0px;
   justify-content: start;
   background-position: -12px 0px;
   background-size: cover;
