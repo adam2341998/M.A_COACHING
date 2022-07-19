@@ -3,9 +3,9 @@
   padding: 0;
 }
 .background {
-  background-color: rgb(0, 0, 0);
-  border: 2px solid brown;
-  height: 200vh;
+  background-color: rgb(68, 7, 7);
+
+  height: 300vh;
 }
 /*__________  icon   __________*/
 
@@ -22,13 +22,14 @@
   filter: invert();
 }
 
-/* sdfgsdfgdsfgdfgdfgdfgfdfgdfgdfgdf */
+/* mh profile */
 .mh {
   background: url(img/36df6fc8-5d37-40ec-bf59-e9a013454cc4.jpg);
+  border-radius: 126px 261px 0px 0px;
   height: 63vh;
   background-repeat: no-repeat;
   background-size: 162%;
-  background-position: -278px -292px;
+  background-position: -230px -292px;
   display: flex;
   align-items: flex-end;
   justify-content: end;
@@ -37,14 +38,30 @@
 }
 .shadow_box {
   background-color: rgba(51, 49, 49, 0.628);
+  border-radius: 261px 64px 10px 10px;
   /* height: 90%; */
   width: 200px;
   text-align: center;
   padding: 20px;
   margin: 22px 17px 22px 22px;
   position: absolute;
-  top: 60px;
+  top: 173px;
+}
+.shadow_box h2 {
+  font-size: 28px;
+  font-weight: 700;
 }
 .shadow_box p {
   font-size: 20px;
+  line-height: 1.4;
+}
+/* ay profile */
+.ay {
+  margin-top: 200px;
+  border-radius: 261px 126px 0px 0px;
+  justify-content: start;
+  background-position: -56px -292px;
+}
+.ay .shadow_box {
+  border-radius: 64px 261px 10px 10px;
 }
